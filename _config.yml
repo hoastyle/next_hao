@@ -73,14 +73,14 @@ font:
   enable: true
 
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default)
-  host: //fonts.useso.com/css?family=Lato:300,400,700,400italic&subset=latin,latin-ext
+  # host: //fonts.useso.com/css?family=Lato:300,400,700,400italic&subset=latin,latin-ext
 
   # Global font settings used on <body> element.
   global:
     # external: true will load this font family from host.
     external: true
-#    family: Lato
-    family: Monda
+    family: Lato
+#    family: Monda
 
   # Font settings for Headlines (h1, h2, h3, h4, h5, h6)
   # Fallback to `global` font settings.
@@ -199,7 +199,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: night blue 
+highlight_theme: normal 
 
 
 # Automatically scroll page to section which is under <!-- more --> mark.
